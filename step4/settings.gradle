@@ -1,0 +1,4 @@
+rootProject.name = 'hometask'
+
+include 'task7'
+include 'task11'
