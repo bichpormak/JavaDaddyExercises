@@ -6,7 +6,7 @@ group = 'com.bichpormak'
 version = '1.0.0'
 
 application {
-    mainClass = 'com.bichpormak.StrategyCommandDemo'
+    mainClass = 'com.bichpormak.ShapeDemo'
 }
 
 repositories {
