@@ -1,0 +1,28 @@
+plugins {
+    id 'application'
+}
+
+group = 'com.bichpormak'
+version = '1.0.0'
+
+application {
+    mainClass = 'com.bichpormak.HashSetDemo'
+}
+
+repositories {
+    mavenCentral()
+}
+
+java {
+    version 17;
+}
+
+dependencies {
+
+    testImplementation platform('org.junit:junit-bom:5.9.1')
+    testImplementation 'org.junit.jupiter:junit-jupiter'
+}
+
+test {
+    useJUnitPlatform()
+}
