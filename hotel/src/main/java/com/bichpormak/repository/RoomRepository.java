@@ -1,0 +1,19 @@
+package com.bichpormak.repository;
+
+import com.bichpormak.model.Room;
+
+import java.time.LocalDate;
+import java.util.List;
+import java.util.Optional;
+
+public interface RoomRepository {
+
+    Optional<Room> findById(int roomId);
+
+    List<Room> findAll();
+
+    Optional<List<LocalDate>> findDatesByRoomId(int roomId);
+
+    void saveNewReservation(int roomId, List<LocalDate> dates);
+
+}
